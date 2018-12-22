@@ -1,0 +1,26 @@
+palindromes = [ 'A',
+                'Аргентина манит негра',
+                'Да, гневен гад',
+                'Кот, сука, за кусток',
+                'Отлично кончил-то',
+                'Кошмар, срам, шок',
+                'Акт у нимф - минутка',
+                'Дорог Рим город или дорог Миргород?!',
+                'Bob',
+                'Nigro or gin?',
+                'Dogma: I am God',
+                'Madam, I\'m Adam.',
+                'Standart — smallest, sell Amstrad nats.',
+                'Evil fit some kill like me, kill like most, if live.',
+                'Do me?.. Kill I victim? Must summit civil like mod.',
+                'Anita lava la tina',
+                'saippuakauppias',
+                'Reit nie tot ein Tier',
+                'Sum summus mus',
+                'Anastas kazak satsana',
+                'Ora trovo: vortaro',
+                '.шалаш,',
+                '.a.'
+                ]
+
+not_palindromes = ['oracle', '01', '-10', '35456646', '!@#$%^&*()"', '', '  ', '   ,   ']

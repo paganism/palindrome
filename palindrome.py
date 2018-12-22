@@ -8,7 +8,6 @@ punctuation, and word dividers, such as "A man, a plan, a canal, Panama!",
 
 def is_palindrome(strng):
     cleaned_str = ''.join(x.lower() for x in strng if x.isalpha() or x.isdigit())
-    if cleaned_str == cleaned_str[::-1]:
+    if cleaned_str and (cleaned_str == cleaned_str[::-1]):
         return True
-    else:
-        return False
+    return False
