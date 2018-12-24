@@ -19,6 +19,14 @@ If reading from the end is equal direct reading, then function returns True, oth
 $ python3 palindrome.py --phrase "No 'x' in Nixon"
 ```
 
+# How to run unit tests
+```
+$ python3 -m unittest unit_tests.py
+```
+Also you can run direct tests
+```
+$ python3 -m unittest unit_tests.TestPalindromeStringMethod.test_is_palindrome
+```
 # Project Goals
 
 The code is written for educational purposes only.
